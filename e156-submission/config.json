@@ -3,7 +3,7 @@
   "slug": "ctgov-publication-undercount-audit",
   "author": "Mahmood Ahmad",
   "date": "2026-03-29",
-  "path": "C:\\Projects\\ctgov-publication-undercount-audit",
+  "path": "C:\\Projects\\ctgov-analyses/ctgov-publication-undercount-audit",
   "type": "methods",
   "primary_estimand": "Weighted PubMed NCT-match rate among older CT.gov records lacking linked publications",
   "summary": "A standalone E156 project auditing how often CT.gov no-link records still show a PubMed NCT paper trail.",
@@ -48,10 +48,11 @@
     "validation": "FULL REGISTRY RUN"
   },
   "affiliation": "Tahir Heart Institute",
-  "email": "author@example.com",
+  "email": "mahmood.ahmad2@nhs.net",
   "references": [
     "ClinicalTrials.gov API v2. National Library of Medicine. Accessed March 29, 2026.",
     "PubMed E-utilities. National Center for Biotechnology Information. Accessed March 29, 2026.",
     "Zarin DA, Tse T, Williams RJ, Carr S. Trial reporting in ClinicalTrials.gov. N Engl J Med. 2016;375(20):1998-2004."
-  ]
+  ],
+  "submitted": false
 }

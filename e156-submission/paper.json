@@ -1,0 +1,96 @@
+{
+  "title": "CT.gov Publication Undercount Audit",
+  "slug": "ctgov-publication-undercount-audit",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "body": "How often do ClinicalTrials.gov records with no linked publication hide an external PubMed trail when searched by NCT identifier? We drew a sponsor-class-stratified audit sample of 1,050 older studies lacking CT.gov publication links from the March 29, 2026 full-registry snapshot. Each sampled NCT identifier was queried against PubMed using identifier-based E-utilities searches, then reweighted back to the sponsor-class distribution of older no-link studies. The weighted PubMed NCT-match rate across the no-link older-study population was only 1.2 percent, indicating that external publication rescue was uncommon on this identifier-based audit. The weighted external-publication-only rate among no-link studies was just 0.3 percent, and the industry sample reached 2.0 percent on the raw PubMed match rate. Missing CT.gov publication links therefore look more like true visible sparsity than widespread under-linking, at least under a strict NCT-indexed external search strategy. This audit is sample-based and identifier-dependent, so it can miss publications that omit NCT identifiers or sit outside PubMed indexing today.",
+  "word_count": 156,
+  "sentence_count": 7,
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "How often do ClinicalTrials.gov records with no linked publication hide an external PubMed trail when searched by NCT identifier?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We drew a sponsor-class-stratified audit sample of 1,050 older studies lacking CT.gov publication links from the March 29, 2026 full-registry snapshot."
+    },
+    {
+      "role": "Method",
+      "text": "Each sampled NCT identifier was queried against PubMed using identifier-based E-utilities searches, then reweighted back to the sponsor-class distribution of older no-link studies."
+    },
+    {
+      "role": "Primary result",
+      "text": "The weighted PubMed NCT-match rate across the no-link older-study population was only 1.2 percent, indicating that external publication rescue was uncommon on this identifier-based audit."
+    },
+    {
+      "role": "Secondary result",
+      "text": "The weighted external-publication-only rate among no-link studies was just 0.3 percent, and the industry sample reached 2.0 percent on the raw PubMed match rate."
+    },
+    {
+      "role": "Interpretation",
+      "text": "Missing CT.gov publication links therefore look more like true visible sparsity than widespread under-linking, at least under a strict NCT-indexed external search strategy."
+    },
+    {
+      "role": "Boundary",
+      "text": "This audit is sample-based and identifier-dependent, so it can miss publications that omit NCT identifiers or sit outside PubMed indexing today."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Publication Undercount Audit dashboard",
+    "data": "Sponsor-class-stratified sample of 1,050 older no-link studies queried against PubMed by NCT ID",
+    "code": "https://github.com/mahmood726-cyber/ctgov-publication-undercount-audit",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "type": "methods",
+  "primary_estimand": "Weighted PubMed NCT-match rate among older CT.gov records lacking linked publications",
+  "validation": {
+    "status": "fail",
+    "checks": [
+      {
+        "name": "single paragraph",
+        "ok": true,
+        "detail": "Body must not contain blank-line paragraph breaks."
+      },
+      {
+        "name": "sentence count",
+        "ok": true,
+        "detail": "Found 7 sentences."
+      },
+      {
+        "name": "word count",
+        "ok": true,
+        "detail": "Found 156 words."
+      },
+      {
+        "name": "no headings",
+        "ok": true,
+        "detail": "No markdown headings allowed in body."
+      },
+      {
+        "name": "no links",
+        "ok": true,
+        "detail": "No links or DOI links allowed in body."
+      },
+      {
+        "name": "result sentence has interval",
+        "ok": true,
+        "detail": "Sentence 4 should include a quantitative result such as a percentage, count, or interval."
+      },
+      {
+        "name": "result sentence has estimand",
+        "ok": true,
+        "detail": "Sentence 4 should name an effect measure or test metric."
+      },
+      {
+        "name": "boundary sentence present",
+        "ok": false,
+        "detail": "Sentence 7 should express a limitation, harm, or scope boundary."
+      }
+    ]
+  },
+  "schema": "e156-v0.2"
+}
