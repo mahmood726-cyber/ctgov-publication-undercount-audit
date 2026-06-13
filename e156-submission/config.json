@@ -3,7 +3,7 @@
   "slug": "ctgov-publication-undercount-audit",
   "author": "Mahmood Ahmad",
   "date": "2026-03-29",
-  "path": "C:\\Projects\\ctgov-analyses/ctgov-publication-undercount-audit",
+  "path": "https://github.com/mahmood726-cyber/ctgov-publication-undercount-audit",
   "type": "methods",
   "primary_estimand": "Weighted PubMed NCT-match rate among older CT.gov records lacking linked publications",
   "summary": "A standalone E156 project auditing how often CT.gov no-link records still show a PubMed NCT paper trail.",
